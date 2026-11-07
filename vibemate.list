@@ -1,0 +1,44 @@
+# VibeMate / SurfEase / Lovense
+# 建议策略：代理
+
+# ===== VibeMate 主域名 =====
+DOMAIN-SUFFIX,vibemate.com
+DOMAIN,surfease.vibemate.com
+DOMAIN,cdn.vibemate.com
+DOMAIN,www.vibemate.com
+DOMAIN,event.vibemate.com
+DOMAIN,preview.vibemate.com
+DOMAIN,vibemate-web-push.vibemate.com
+DOMAIN,vibemate-web-push-test.vibemate.com
+
+# ===== Lovense 主域名 =====
+DOMAIN-SUFFIX,lovense.com
+DOMAIN,cdn.lovense.com
+DOMAIN,api.lovense.com
+DOMAIN,app.lovense.com
+DOMAIN,apps.lovense.com
+DOMAIN,coll.lovense.com
+DOMAIN,developer.lovense.com
+DOMAIN,developers.lovense.com
+DOMAIN,support.lovense.com
+DOMAIN,studio.lovense.com
+DOMAIN,guide.lovense.com
+DOMAIN,club.lovense.com
+DOMAIN,log.lovense.com
+DOMAIN,survey.lovense.com
+DOMAIN,affiliate.lovense.com
+DOMAIN,partners.lovense.com
+
+# ===== Lovense API =====
+DOMAIN-SUFFIX,lovense-api.com
+DOMAIN,api.lovense-api.com
+DOMAIN,activity.lovense-api.com
+DOMAIN,apps.lovense-api.com
+
+# ===== Lovense 本地控制相关（可选）=====
+DOMAIN-SUFFIX,lovense.club
+
+# ===== 关键词兜底 =====
+DOMAIN-KEYWORD,vibemate
+DOMAIN-KEYWORD,surfease
+DOMAIN-KEYWORD,lovense
