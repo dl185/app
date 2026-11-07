@@ -1,0 +1,42 @@
+# Lovense Remote + Lovense Connect + VibeMate
+# 注意：lovense.club 必须直连，否则玩具控制失败
+
+# ===== 本地局域网 Game Mode（必须直连）=====
+DOMAIN-SUFFIX,lovense.club,DIRECT
+DOMAIN-KEYWORD,lovense.club,DIRECT
+
+# ===== VibeMate =====
+DOMAIN-SUFFIX,vibemate.com,PROXY
+DOMAIN,surfease.vibemate.com,PROXY
+DOMAIN,cdn.vibemate.com,PROXY
+DOMAIN,www.vibemate.com,PROXY
+DOMAIN,event.vibemate.com,PROXY
+DOMAIN,preview.vibemate.com,PROXY
+DOMAIN,vibemate-web-push.vibemate.com,PROXY
+DOMAIN,vibemate-web-push-test.vibemate.com,PROXY
+
+# ===== Lovense 官方服务（走代理）=====
+DOMAIN-SUFFIX,lovense.com,PROXY
+DOMAIN-SUFFIX,lovense-api.com,PROXY
+DOMAIN,api.lovense.com,PROXY
+DOMAIN,api.lovense-api.com,PROXY
+DOMAIN,apps.lovense.com,PROXY
+DOMAIN,app.lovense.com,PROXY
+DOMAIN,cdn.lovense.com,PROXY
+DOMAIN,coll.lovense.com,PROXY
+DOMAIN,developer.lovense.com,PROXY
+DOMAIN,developers.lovense.com,PROXY
+DOMAIN,support.lovense.com,PROXY
+DOMAIN,studio.lovense.com,PROXY
+DOMAIN,guide.lovense.com,PROXY
+DOMAIN,log.lovense.com,PROXY
+DOMAIN,survey.lovense.com,PROXY
+DOMAIN,affiliate.lovense.com,PROXY
+DOMAIN,partners.lovense.com,PROXY
+DOMAIN,activity.lovense-api.com,PROXY
+DOMAIN,apps.lovense-api.com,PROXY
+
+# ===== 关键词兜底 =====
+DOMAIN-KEYWORD,vibemate,PROXY
+DOMAIN-KEYWORD,surfease,PROXY
+DOMAIN-KEYWORD,lovense,PROXY
