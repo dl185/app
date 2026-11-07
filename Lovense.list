@@ -1,42 +1,43 @@
 # Lovense Remote + Lovense Connect + VibeMate
-# 注意：lovense.club 必须直连，否则玩具控制失败
+# Mihomo classical rule-provider format: rule type and payload only.
+# Direct exceptions for lovense.club are configured before this provider in ACL4SSR_.yaml.
 
-# ===== 本地局域网 Game Mode（必须直连）=====
-DOMAIN-SUFFIX,lovense.club,DIRECT
-DOMAIN-KEYWORD,lovense.club,DIRECT
+# ===== Local LAN Game Mode =====
+DOMAIN-SUFFIX,lovense.club
+DOMAIN-KEYWORD,lovense.club
 
 # ===== VibeMate =====
-DOMAIN-SUFFIX,vibemate.com,PROXY
-DOMAIN,surfease.vibemate.com,PROXY
-DOMAIN,cdn.vibemate.com,PROXY
-DOMAIN,www.vibemate.com,PROXY
-DOMAIN,event.vibemate.com,PROXY
-DOMAIN,preview.vibemate.com,PROXY
-DOMAIN,vibemate-web-push.vibemate.com,PROXY
-DOMAIN,vibemate-web-push-test.vibemate.com,PROXY
+DOMAIN-SUFFIX,vibemate.com
+DOMAIN,surfease.vibemate.com
+DOMAIN,cdn.vibemate.com
+DOMAIN,www.vibemate.com
+DOMAIN,event.vibemate.com
+DOMAIN,preview.vibemate.com
+DOMAIN,vibemate-web-push.vibemate.com
+DOMAIN,vibemate-web-push-test.vibemate.com
 
-# ===== Lovense 官方服务（走代理）=====
-DOMAIN-SUFFIX,lovense.com,PROXY
-DOMAIN-SUFFIX,lovense-api.com,PROXY
-DOMAIN,api.lovense.com,PROXY
-DOMAIN,api.lovense-api.com,PROXY
-DOMAIN,apps.lovense.com,PROXY
-DOMAIN,app.lovense.com,PROXY
-DOMAIN,cdn.lovense.com,PROXY
-DOMAIN,coll.lovense.com,PROXY
-DOMAIN,developer.lovense.com,PROXY
-DOMAIN,developers.lovense.com,PROXY
-DOMAIN,support.lovense.com,PROXY
-DOMAIN,studio.lovense.com,PROXY
-DOMAIN,guide.lovense.com,PROXY
-DOMAIN,log.lovense.com,PROXY
-DOMAIN,survey.lovense.com,PROXY
-DOMAIN,affiliate.lovense.com,PROXY
-DOMAIN,partners.lovense.com,PROXY
-DOMAIN,activity.lovense-api.com,PROXY
-DOMAIN,apps.lovense-api.com,PROXY
+# ===== Official Lovense services =====
+DOMAIN-SUFFIX,lovense.com
+DOMAIN-SUFFIX,lovense-api.com
+DOMAIN,api.lovense.com
+DOMAIN,api.lovense-api.com
+DOMAIN,apps.lovense.com
+DOMAIN,app.lovense.com
+DOMAIN,cdn.lovense.com
+DOMAIN,coll.lovense.com
+DOMAIN,developer.lovense.com
+DOMAIN,developers.lovense.com
+DOMAIN,support.lovense.com
+DOMAIN,studio.lovense.com
+DOMAIN,guide.lovense.com
+DOMAIN,log.lovense.com
+DOMAIN,survey.lovense.com
+DOMAIN,affiliate.lovense.com
+DOMAIN,partners.lovense.com
+DOMAIN,activity.lovense-api.com
+DOMAIN,apps.lovense-api.com
 
-# ===== 关键词兜底 =====
-DOMAIN-KEYWORD,vibemate,PROXY
-DOMAIN-KEYWORD,surfease,PROXY
-DOMAIN-KEYWORD,lovense,PROXY
+# ===== Keyword fallbacks =====
+DOMAIN-KEYWORD,vibemate
+DOMAIN-KEYWORD,surfease
+DOMAIN-KEYWORD,lovense
